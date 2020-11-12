@@ -1,0 +1,365 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    padding: 17px 30px 17px 50px;
+}
+.header_items a{
+    margin: 0 10px;
+    color: gray;
+}
+
+.header_items{
+    padding: 0 30px;
+}
+
+.header_bac_sites{
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header_bac_sites i{
+    font-size: 1.5em;
+    margin-right: 8px;
+}
+
+
+.header_login_button{
+    border-radius: 30px;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.header_currency{
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.header_login_button{
+    border: 1px solid rgb(28, 177, 226);
+    border-radius: 30px;
+    padding: 1em 2em;
+    text-decoration: none;
+    background: transparent;
+    color:  rgb(28, 177, 226) !important;
+    font-weight: bolder;
+    font-size: 0.8em;
+    letter-spacing: 0px;
+}
+
+/* Hero */
+
+.hero{
+    height: 670px;
+    background-image: url('../images/hero_images.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+.hero_select{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 6em;
+}
+.hero_select_options{
+    padding: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: unset;
+    width: 20em;
+    font-size: 1em;
+}
+.hero_select_double{
+    background: white;
+    border-radius: 30px;
+    padding: 1px 5px;
+}
+.hero_select_double i {
+    padding: 1em;
+    background: red;
+    border-radius: 30px;
+    color: white;
+}
+.hero_select_double span{
+    font-size: 2em;
+    font-weight: lighter;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.hero_description{
+    padding: 2em 5em 0em;
+}
+
+
+.hero_description h2{
+    color:  white;
+    font-size: 2em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.hero_description p{
+    color:  white;
+    font-weight: lighter;
+}
+
+.hero_description a{
+    border: 1px solid red;
+    border-radius: 30px;
+    padding: 1em 2em;
+    text-decoration: none;
+    background: red;
+    color: white;
+    font-weight: bolder;
+    display: block;
+    width: 110px;
+}
+.grid_bussiness{
+    display: grid;
+    padding: 1em 5em;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px 15px;
+}
+
+.item_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+
+.item_container h3, .item_container p{
+    margin: 0;
+}
+
+.item_avatar img{
+    border-radius: 40px;
+    border: 2px solid white;
+    margin-top: -90px;
+    margin-right: 20px;
+}
+
+.item_buttons a{
+    border: 1px solid red;
+    border-radius: 30px;
+    padding: 1em 2em;
+    text-decoration: none;
+    background: red;
+    color: white;
+    font-weight: bolder;
+    font-size: 0.6em;
+}
+.item_buttons a:nth-of-type(2){
+    border: 1px solid red;
+    border-radius: 30px;
+    padding: 1em 2em;
+    text-decoration: none;
+    background: transparent;
+    color: red;
+    font-weight: bolder;
+    font-size: 0.6em;
+}
+.item{
+    background: #80808026;
+    border-radius: 30px;
+}
+
+.item_title h3{
+    color: red;
+}
+
+.item_description{
+    padding: 1em 1.4em 0;
+}
+.item_buttons{
+    padding: 1em 1em 2em;
+}
+
+.item_image{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.banner{
+    height: 400px;
+    background-image: url('../images/hero_images.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.banner div{
+    text-align: right;
+    padding: 0 8em;
+}
+
+.banner_description h4, .banner_description span{
+    color: white;
+}
+
+.banner_description h4{
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.banner_description span{
+    font-size: 0.8em;
+    margin: 20px 0 0;
+}
+
+/* About Us */
+
+.about_us{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 1fr;
+}
+
+.about_us_item{
+    padding: 4em;
+}
+
+.about_us_item a{
+    border: 1px solid rgb(80, 75, 75);
+    border-radius: 30px;
+    padding: 1em 1em;
+    text-decoration: none;
+    background: transparent;
+    color: rgb(80, 75, 75);
+    font-weight: bolder;
+    font-size: 1em;
+    display: block;
+}
+
+.about_us div:nth-of-type(2){
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+
+/* Footer */
+
+
+footer{
+     background-color: red;
+     padding: 5em;
+}
+
+footer img{
+    padding: 1em 0 6em 0;
+    display: block;
+}
+
+.footer_social_icons_container {
+    text-align: right;
+}
+
+.footer_social_icons_container i{
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+
+hr{
+    color: white;
+}
+
+.footer_copyright_container p{
+    color: rgba(255, 255, 255, 0.836);
+}
+
+/* Responsive */
+
+.burguer-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+    line-height: 40px;
+    text-align: center;
+    position: fixed;
+    z-index: 4;
+    right: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu_movile{
+    display: none;
+}
+
+@media screen and (max-width: 767px){
+    .burguer-button{
+        display: block;
+    }
+
+    .header_items{
+        display: none;
+    }
+
+    .menu_movile{
+        position: fixed;
+        background-color: #ff0000ab;
+        z-index: 3;
+        width: 100vw;
+        left: -100vw;
+        bottom: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .5s;
+        text-align: center;
+        height: 100vh;
+    }
+
+    .menu_movile.is_active{
+        left: 0;
+        height: 100vh;
+    }
+
+    .menu_movile li{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        font-size: 2em;
+        padding: 0.3em;
+        font-weight: lighter;
+    }
+
+    .hero_select {
+        padding: 4em 2em;
+    }
+
+    .hero_select_options {
+        width: 40%;
+    }
+
+    .banner div {
+        padding: 0 2em;
+    }
+
+    .banner_description h4 {
+        font-size: 1.5em;
+    }
+}
